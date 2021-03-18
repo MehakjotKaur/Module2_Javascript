@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goal Tracker</title>
+</head>
+<body>
+  <!-- Largest heading -->
+  <h1>MY WEEKLY GOALS</h1>
+
+  <!-- label text -->
+  <label for="goal">What Are Your Goals For Today?</label>
+  <!-- input text element -->
+  <input type="text" id="goal" required><br>
+
+  <button id="Btn">Add New Goals</button>
+
+  <!-- Output div to show list of added goal text inputs -->
+  <div >
+    <h2 id="goalListHeading"></h2>
+    <ol id="goalList"></ol>
+  </div>
+
+   <!-- Output div to show list of completed goal items which  -->
+   <div class="beautiful" >
+    <h2 id="compGoalListHeading"></h2>
+     <ol id ="compGoalList"></ol>
+    </div>
+
+  <!-- Including External JavaScript File which MUST be in the same folder as this HTML file -->
+  <script src="main-solution.js"></script>
+</body>
+</html>

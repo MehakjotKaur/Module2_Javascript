@@ -1,0 +1,53 @@
+label {
+  display: block;
+  margin-top: 0.1rem;
+  margin-bottom: 0.1rem;
+}
+h1{
+  color: blue;
+}
+
+/* input box dtyle */
+#goal {
+  width: 20%;
+}
+
+li {
+  margin-top: 0.5rem;
+}
+
+/* Button styles */
+#Btn {
+  margin-top: 0.3rem;
+  color: white;
+  background-color: rgb(2, 44, 56);
+  border: none;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+}
+
+.deleteMe {
+  margin-left: 2rem;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+}
+
+.markCompleted {
+  margin-left: 0.4rem;
+  color: white;
+  background-color: black;
+  border: none;
+  padding: 0.2rem 0.4rem;
+  cursor: pointer;
+}
+
+
+
+/* Button mouse hover styles */
+
+#Btn:hover, .deleteMe:hover, .markCompleted:hover {
+  opacity: 0.8;
+}
